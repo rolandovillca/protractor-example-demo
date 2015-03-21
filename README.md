@@ -1,7 +1,7 @@
-# protractor-example-demo
+# Example protractor with webdriver
 Example to build very basic example for protractor, selenium web driver and grunt tasks
 
-# Steps
+## Steps
 
 1. Install npm dependencies
 
@@ -13,7 +13,7 @@ Example to build very basic example for protractor, selenium web driver and grun
 
    Note: It can take some seconds, please wait :)
 
-3. Run task for run tests using chrome driver
+3. Run task for running protractor tests
 
    $ grunt testChrome
    

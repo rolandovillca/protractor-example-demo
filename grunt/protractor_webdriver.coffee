@@ -8,10 +8,10 @@ module.exports =
   start:
     options:
       keepAlive: false
-      path: "node_modules/protractor/bin/"
+      path: "./node_modules/.bin/"
       command: "webdriver-manager start"
   update:
     options:
-      keepAlive: false,
-      path: "node_modules/protractor/bin/"
+      keepAlive: true
+      path: "./node_modules/.bin/"
       command: "webdriver-manager update"

@@ -1,0 +1,27 @@
+{
+  "name": "automation-protractor-poc",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "protractor": "~1.8.0",
+    "grunt-protractor-runner": "~1.2.1",
+    "grunt-protractor-webdriver": "~0.2.0",
+    "load-grunt-config": "~0.16.0",
+    "coffee-script": "1.8.0",
+    "coffeelint": "~1.9.2",
+    "grunt-coffeelint": "0.0.13",
+    "grunt-contrib-clean": "0.5.0",
+    "grunt-contrib-coffee": "0.10.1",
+    "grunt-contrib-copy": "0.5.0",
+    "chai": "~2.1.1",
+    "chai-as-promised": "~4.3.0",
+    "time-grunt": "~1.1.0"
+  },
+  "scripts": {
+    "install": "node_modules/.bin/webdriver-manager update"
+  }
+}
